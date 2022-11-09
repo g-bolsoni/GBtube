@@ -30,7 +30,6 @@ function Timeline(props) {
                 <h2>{playlistName}</h2>
                 <div>
                   {videos.map((video) => {
-                    console.log( video)
                     return(
                       <>
                       <a href={video.url}>
